@@ -1,6 +1,6 @@
 # andres0818.github.io
 
-Portafolio personal de Andrés Pérez — Ingeniero Full Stack (.NET y C# / React / React Native).
+Portafolio personal de Andrés Pérez — Desarrollador Full Stack (.NET y C# / React / React Native).
 
 Los proyectos para clientes se presentan como casos anónimos, sin pantallas reales: cada uno explica el problema, lo que se construyó y el recorrido del día a día. Los textos viven en `src/contenido.ts`.
 

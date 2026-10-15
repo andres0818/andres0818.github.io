@@ -5,7 +5,7 @@
 
 export const PERSONA = {
   nombre: 'Andrés Pérez',
-  rol: 'Ingeniero Full Stack',
+  rol: 'Desarrollador Full Stack',
   ciudad: 'Medellín, Colombia',
   resumen:
     'Más de tres años construyendo software empresarial de punta a punta: APIs en .NET y C#, interfaces en React y Next.js, aplicaciones móviles en React Native y diseño en Figma. Hoy trabajo en TCS sobre Azure y, por mi cuenta, desarrollo sistemas a la medida para negocios locales.',
@@ -134,7 +134,7 @@ export type Trabajo = { lugar: string; rol: string; fechas: string; puntos: stri
 export const EXPERIENCIA: Trabajo[] = [
   {
     lugar: 'Tata Consultancy Services (TCS)',
-    rol: 'Ingeniero Full Stack',
+    rol: 'Desarrollador Full Stack',
     fechas: 'Sep. 2026 – actualidad',
     puntos: [
       'Implemento APIs nuevas en C# y .NET y mantengo las existentes estables mientras evolucionan con el negocio.',
