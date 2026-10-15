@@ -1,23 +1,21 @@
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import SkillsSection from './components/SkillsSection';
-import ProjectsSection from './components/ProjectsSection';
-import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
+import { Encabezado, Pie } from './componentes/Base';
+import { Contacto, Experiencia, Herramientas } from './componentes/Perfil';
+import { Portada } from './componentes/Portada';
+import { OtrosProyectos, Proyectos } from './componentes/Proyectos';
 
-function App() {
+export default function App() {
   return (
     <>
-      <Navbar />
+      <Encabezado />
       <main>
-        <HeroSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
+        <Portada />
+        <Proyectos />
+        <OtrosProyectos />
+        <Experiencia />
+        <Herramientas />
+        <Contacto />
       </main>
-      <Footer />
+      <Pie />
     </>
   );
 }
-
-export default App;

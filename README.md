@@ -1,22 +1,22 @@
 # andres0818.github.io
 
-Portafolio personal de Andrés Pérez — Desarrollador Full Stack (.NET & C# / React / React Native).
+Portafolio personal de Andrés Pérez — Ingeniero Full Stack (.NET y C# / React / React Native).
 
-Landing interactivo: en vez de solo describir proyectos, la sección de destacados embebe los demos en vivo para que se puedan explorar sin salir del sitio.
+Los proyectos para clientes se presentan como casos anónimos, sin pantallas reales: cada uno explica el problema, lo que se construyó y el recorrido del día a día. Los textos viven en `src/contenido.ts`.
 
-## Stack
+## Tecnología
 
-React 19 + TypeScript + Vite + Tailwind CSS v4 + Framer Motion.
+React 19 + TypeScript + Vite + Material UI, con la misma línea gráfica de soluoficial.com (escala de grises, letra Inter, modo claro y oscuro).
 
 ## Desarrollo
 
 ```bash
 npm install
 npm run dev      # servidor local
-npm run build    # build de producción
+npm run build    # compilación de producción
 npm run lint     # ESLint
 ```
 
-## Deploy
+## Publicación
 
-GitHub Actions build y publica automáticamente en cada push a `main`, vía GitHub Pages.
+GitHub Actions compila y publica automáticamente en GitHub Pages con cada push a `main`.
